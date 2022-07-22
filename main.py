@@ -20,7 +20,7 @@ if __name__=="__main__":
     #print(p)
     random.shuffle(p)
     #print(p)
-    print("".join(p[0:passlength]))
+    print("Strong Password: "+"".join(p[0:passlength]))
     
     #other method 
     #print("".join(random.sample(p,5)))
