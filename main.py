@@ -24,4 +24,4 @@ if __name__=="__main__":
     print("".join(p[0:passlen]))
     
     #other method 
-    print("".join(random.sample(p,5)))
+    #print("".join(random.sample(p,5)))
