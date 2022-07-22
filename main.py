@@ -1,5 +1,4 @@
 from ast import main
-from curses import nl
 import random
 import string
 if __name__=="__main__":
@@ -12,7 +11,7 @@ if __name__=="__main__":
     p4=string.punctuation
     #print(p4)
     #passlen=int(input("Enter password length: "))
-    passlen=128
+    passlength=128
     p=[]
     p.extend(list(p1))
     p.extend(list(p2))
@@ -21,7 +20,7 @@ if __name__=="__main__":
     #print(p)
     random.shuffle(p)
     #print(p)
-    print("".join(p[0:passlen]))
+    print("".join(p[0:passlength]))
     
     #other method 
     #print("".join(random.sample(p,5)))
